@@ -32,5 +32,4 @@ Classes
 .portFloat
 .footer1
 
-https://davidsjg.github.io/Device-Responsiveness-Portfolio/
-https://github.com/davidsjg/Device-Responsiveness-Portfolio
+https://davidsjg.github.io/My-Portfolio-Page/
