@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <!--Import materialize.css-->
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="./css/materialize.css"
+    media="screen,projection"
+  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="HW2mycopy-2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Joey Davidson Website</title>
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+    <div class="nav-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdo6p7HkUO5yM-vzPHuKZwsDbXdVOOyuPasw&usqp=CAU" alt="" width="30" height="24" class="d-inline-block">
+        Joey Davidson
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+        <li><a href="index2.html">About Me</a></li>
+      </ul>
+    </div>
+</nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="Portfolio.html">Portfolio</a></li>
+    <li><a href="index2.html">About Me</a></li>
+  </ul>
+
+
+
+
+
+<div class="mainDisp">
+<div class="row">
+
+    <div class="col s4">
+        <div class="card" style="width:fit-content">
+            <img src="./Device Response Portfolio Images/Heart.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text"><h4><a href="Contact.html" class="pe-auto">Contact</a></h4></p> -->
+                    <!-- <p class="card-text"><h4>About Me</h4></p> -->
+                    <ul class="collapsible">
+                      <li>
+                        <div class="collapsible-header"><i class="material-icons"></i><h4>Contact</h4></div>
+                        <div class="collapsible-body"><span>Click <span><a href="Contact.html"  target="_blank" class="pe-auto">here</a></span> to get in contact with me.</span></div>
+                      </li>
+                    </ul>
+            </div>
+        </div>    
+    </div>
+    <div class="col s4">
+        <div class="card" style="width:fit-content">
+            <img src="./Device Response Portfolio Images/Shelf.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <!-- <p class="card-text"><h4>About Me</h4></p> -->
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons"></i><h4>About Me</h4></div>
+                  
+                  <div class="collapsible-body"><span>My name is Joey Davidson and I am from Evergreen, Colorado.  When I'm not in front of a computer programming, I enjoy the outdoors and playing guitar.  Please enjoy my page and feel free to drop me a line!  </span></div>
+                  <div class="collapsible-body"><img src="./Device Response Portfolio Images/IMG_6532.JPG" class="card-img-top" alt="..."></div>
+                </li>
+              </ul>
+            </div>
+        </div>    
+    </div>
+    <div class="col s4">
+        <div class="card" style="width:fit-content">
+            <img src="./Device Response Portfolio Images/Chihuahua.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <!-- <p class="card-text"><h4><a href="Portfolio.html" class="pe-auto">Portfolio</a></h4></p> -->
+                <!-- <p class="card-text"><h4>About Me</h4></p> -->
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons"></i><h4>Portfolio</h4></div>
+                    <div class="collapsible-body"><span>Click <span><a href="Portfolio.html"  target="_blank" class="pe-auto">here</a></span> to see my my Portfolio page. </span></div>
+
+                  </li>
+                </ul>
+            </div>
+        </div>    
+    </div>  
+</div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 footerColor">
+          <!-- <h5 class="black-text">Footer Content</h5>
+          <p class="black-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
+        </div>
+        <!-- <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <div class="black-text footer-copyright">
+      <div class="container">
+      © 2021 Copyright Text
+      <a class="black-text text-lighten-5 right" href="index2.html">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./js/materialize.js"></script>
+</body>
+<script>
+    $(document).ready(function(){
+    $(".sidenav").sidenav();
+    $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+    });
+      
+</script>
+</html>
